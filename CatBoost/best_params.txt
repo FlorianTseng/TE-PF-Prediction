@@ -1,0 +1,3 @@
+Target: PF_n
+Best Params: {'iterations': 404, 'learning_rate': 0.16193154427582093, 'depth': 6, 'subsample': 0.9857252406860649, 'colsample_bylevel': 0.8462263510545746, 'l2_leaf_reg': 2.5276186490161763}
+
