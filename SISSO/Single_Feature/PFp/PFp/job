@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#SBATCH --partition=hpib
+#SBATCH --account=zywang
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+
+module load intel/parallelstudio/2019
+
+export PATH=~/project/bin:$PATH
+
+source ~/.bashrc
+
+which SISSO
+
+srun -n 1 SISSO > log

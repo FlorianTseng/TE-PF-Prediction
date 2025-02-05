@@ -1,0 +1,10 @@
+(cbrt(scd(maximum_NdUnfilled))*(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4184
+((exp(-maximum_NdUnfilled))^3+(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4175
+((exp(-maximum_NdUnfilled))^6+(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4175
+((cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled))/scd(exp(-maximum_NdUnfilled)))  corr=      0.4175
+((exp(-maximum_NdUnfilled))^2+(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4175
+((cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled))/log(scd(maximum_NdUnfilled)))  corr=      0.4171
+((exp(maximum_NdUnfilled))^-1+(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4169
+(scd(cbrt(maximum_NdUnfilled))*(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4167
+(sin(cbrt(maximum_NdUnfilled))-(cos(maximum_NdUnfilled)+sin(maximum_NdUnfilled)))  corr=      0.4166
+(cos((maximum_NdUnfilled)^2)+sin(exp(maximum_NdUnfilled)))  corr=      0.4165
